@@ -1,5 +1,5 @@
 require 'bundler/setup'
-require 'rspec_passed_time_formatter'
+require 'html_with_passed_time'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
@@ -15,6 +15,6 @@ end
 
 def run_spec_with_formatter(spec)
   `rspec #{spec} \
-  --require #{Dir.pwd}/lib/rspec_passed_time_formatter.rb \
+  --require #{Dir.pwd}/lib/html_with_passed_time.rb \
   --format HtmlWithPassedTime -o out.html`
 end
