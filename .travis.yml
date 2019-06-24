@@ -2,9 +2,9 @@ language: ruby
 
 rvm:
 - ruby-head
-- 2.5.0
-- 2.4.3
-- 2.3.6
+- 2.6.3
+- 2.5.5
+- 2.4.6
 
 before_install:
   - gem update --system
