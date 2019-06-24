@@ -11,18 +11,3 @@
 Style/ExpandPathArguments:
   Exclude:
     - 'rspec_passed_time_formatter.gemspec'
-
-# Offense count: 8
-# Cop supports --auto-correct.
-# Configuration parameters: EnforcedStyle.
-# SupportedStyles: always, never
-Style/FrozenStringLiteralComment:
-  Exclude:
-    - 'Gemfile'
-    - 'Rakefile'
-    - 'lib/html_with_passed_time.rb'
-    - 'lib/rspec_passed_time_formatter/version.rb'
-    - 'rspec_passed_time_formatter.gemspec'
-    - 'spec/rspec_passed_time_formatter_spec.rb'
-    - 'spec/simple_spec.rb'
-    - 'spec/spec_helper.rb'
