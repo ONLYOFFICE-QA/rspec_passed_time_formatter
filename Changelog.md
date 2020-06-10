@@ -2,6 +2,11 @@
 
 ## master (unreleased)
 
+### New Features
+
+* Add support of `rubocop-rspec`, `rubocop-performance` and `rubocop-rake`
+* Freeze specific versions of `rubocop` gems, so updates can be monitored
+
 ### Fixes
 
 * `.idea` folder in .gitignore
