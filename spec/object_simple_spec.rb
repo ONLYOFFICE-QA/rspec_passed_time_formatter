@@ -2,7 +2,7 @@
 
 require 'rspec'
 
-describe 'Simple spec' do
+describe Object do
   it 'simple it' do
     expect(true).to be_truthy
   end
