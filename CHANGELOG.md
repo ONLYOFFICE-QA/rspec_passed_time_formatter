@@ -5,7 +5,8 @@
 ### New Features
 
 * Add support of `rubocop-rspec`, `rubocop-performance` and `rubocop-rake`
-* Freeze specific versions of `rubocop` gems, so updates can be monitored
+* Freeze specific versions of `rubocop`,
+  `rspec` gems, so updates can be monitored
 * Use `GitHub Actions` instead of TravisCI
 * Add `dependabot` configuration
 
