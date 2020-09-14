@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email = ['shockwavenn@gmail.com']
   s.summary = 'Formatter for `rspec` with end time'
   s.description = 'Formatter for `rspec` with output html with end times'
-  s.homepage = "https://github.com/onlyoffice-testing-robot/#{s.name}"
+  s.homepage = "https://github.com/ONLYOFFICE-QA/#{s.name}"
   s.metadata = {
     'bug_tracker_uri' => "#{s.homepage}/issues",
     'changelog_uri' => "#{s.homepage}/blob/master/CHANGELOG.md",
