@@ -20,6 +20,7 @@
 
 * Minor cleanups in `gemspec` file
 * Move repo ownership to `ONLYOFFICE-QA`
+* Drop support of ruby <= 2.4 since it's EOLed
 
 ## 0.1.0 (2018-03-12)
 
