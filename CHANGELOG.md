@@ -10,6 +10,7 @@
 * Use `GitHub Actions` instead of TravisCI
 * Add `dependabot` configuration
 * Add `markdownlint` task in CI
+* Add `rubocop` check in CI
 
 ### Fixes
 
