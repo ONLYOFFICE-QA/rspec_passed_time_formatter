@@ -9,6 +9,7 @@
   `rspec` gems, so updates can be monitored
 * Use `GitHub Actions` instead of TravisCI
 * Add `dependabot` configuration
+* Add `markdownlint` task in CI
 
 ### Fixes
 
