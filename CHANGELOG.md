@@ -2,6 +2,8 @@
 
 ## master (unreleased)
 
+## 0.2.0 (2020-09-15)
+
 ### New Features
 
 * Add support of `rubocop-rspec`, `rubocop-performance` and `rubocop-rake`
