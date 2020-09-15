@@ -13,6 +13,7 @@
 * Add `rubocop` check in CI
 * Add `rake` task to release gem on rubygems
   and GitHub Packages
+* Add `yard` task to check 100% documentation  
 
 ### Fixes
 
