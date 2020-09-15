@@ -22,6 +22,8 @@ RSpec.configure do |config|
   end
 end
 
+# Run command with formatter
+# @return [String] result of command
 def run_spec_with_formatter(spec)
   `rspec #{spec} \
   --require #{Dir.pwd}/lib/html_with_passed_time.rb \

@@ -7,6 +7,7 @@ require_relative 'rspec_passed_time_formatter/version'
 class HtmlWithPassedTime < RSpec::Core::Formatters::HtmlFormatter
   RSpec::Core::Formatters.register self, :example_passed
 
+  # Formatter for passed example
   def example_passed(passed)
     result_data = passed.example.execution_result
     @printer.move_progress(percent_done)
