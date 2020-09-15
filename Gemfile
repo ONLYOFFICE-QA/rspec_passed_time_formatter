@@ -6,10 +6,5 @@ source 'https://rubygems.org'
 gemspec
 
 group :test do
-  gem 'codecov', require: false
   gem 'rake'
-end
-
-group :development do
-  gem 'overcommit', require: false
 end
