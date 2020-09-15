@@ -11,6 +11,8 @@
 * Add `dependabot` configuration
 * Add `markdownlint` task in CI
 * Add `rubocop` check in CI
+* Add `rake` task to release gem on rubygems
+  and GitHub Packages
 
 ### Fixes
 
