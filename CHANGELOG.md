@@ -4,6 +4,10 @@
 
 ## 0.2.0 (2020-09-15)
 
+### Changes
+
+* Freeze gem dependencies in `Gemfile.lock`
+
 ### New Features
 
 * Add support of `rubocop-rspec`, `rubocop-performance` and `rubocop-rake`
