@@ -2,6 +2,10 @@
 
 ## master (unreleased)
 
+### New Features
+
+* Add `ruby-3.0` in CI
+
 ### Changes
 
 * Freeze gem dependencies in `Gemfile.lock`
