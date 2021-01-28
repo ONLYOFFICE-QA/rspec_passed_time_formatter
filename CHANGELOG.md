@@ -5,6 +5,7 @@
 ### Changes
 
 * Freeze gem dependencies in `Gemfile.lock`
+* Require newer version of `yard` with security fix
 
 ## 0.2.0 (2020-09-15)
 
