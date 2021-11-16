@@ -10,6 +10,7 @@
 
 * Freeze gem dependencies in `Gemfile.lock`
 * Require newer version of `yard` with security fix
+* Require `mfa` for releasing gem
 
 ## 0.2.0 (2020-09-15)
 
