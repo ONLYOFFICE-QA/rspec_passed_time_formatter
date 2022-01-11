@@ -5,12 +5,14 @@
 ### New Features
 
 * Add `ruby-3.0` in CI
+* Add `ruby-3.1` in CI
 
 ### Changes
 
 * Freeze gem dependencies in `Gemfile.lock`
 * Require newer version of `yard` with security fix
 * Require `mfa` for releasing gem
+* Remove `ruby-2.5` from CI since it's EOLed
 
 ## 0.2.0 (2020-09-15)
 
