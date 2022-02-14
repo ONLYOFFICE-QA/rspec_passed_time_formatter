@@ -6,6 +6,7 @@
 
 * Add `ruby-3.0` in CI
 * Add `ruby-3.1` in CI
+* Add `yamllint` check in CI
 
 ### Fixes
 
