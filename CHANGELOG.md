@@ -7,6 +7,10 @@
 * Add `ruby-3.0` in CI
 * Add `ruby-3.1` in CI
 
+### Fixes
+
+* Fix `markdownlint` failure because of old `nodejs` in CI
+
 ### Changes
 
 * Freeze gem dependencies in `Gemfile.lock`
