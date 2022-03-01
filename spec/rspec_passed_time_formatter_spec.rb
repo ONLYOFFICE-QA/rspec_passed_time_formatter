@@ -4,7 +4,7 @@ require 'spec_helper'
 
 RSpec.describe RspecPassedTimeFormatter do
   it 'has a version number' do
-    expect(RspecPassedTimeFormatter::VERSION).not_to be nil
+    expect(RspecPassedTimeFormatter::VERSION).not_to be_nil
   end
 
   it 'returns just seconds for sub 60 seconds' do
