@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.name = RspecPassedTimeFormatter::NAME
   s.version = RspecPassedTimeFormatter::VERSION
   s.platform = Gem::Platform::RUBY
-  s.required_ruby_version = '>= 2.5'
+  s.required_ruby_version = '>= 2.7'
   s.authors = ['ONLYOFFICE', 'Pavel Lobashov']
   s.email = ['shockwavenn@gmail.com']
   s.summary = 'Formatter for `rspec` with end time'
