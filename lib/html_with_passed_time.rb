@@ -11,10 +11,10 @@ class HtmlWithPassedTime < RSpec::Core::Formatters::HtmlFormatter
   def example_passed(passed)
     result_data = passed.example.execution_result
     @printer.move_progress(percent_done)
-    @printer.print_example_passed("#{passed.example.description} : \
-                                  Test started at: #{result_data.started_at} \,
-                                  Test finished at: #{result_data.finished_at}",
-                                  result_data.run_time.to_s)
+    @printer.print_example_passed("#{passed.example.description} : " \
+                                  "Test started at: #{result_data.started_at}, " \
+                                  "Test finished at: #{result_data.finished_at}, " \
+                                  "#{result_data.run_time}")
     @printer.flush
   end
 end
