@@ -11,6 +11,7 @@
 ### Fixes
 
 * Fix `markdownlint` failure because of old `nodejs` in CI
+* Fix `codecov` report, by adding `codecov` github action
 
 ### Changes
 

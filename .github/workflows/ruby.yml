@@ -26,3 +26,8 @@ jobs:
         run: rubocop
       - name: Check that code 100% documented
         run: yardoc . | grep -q '100.00% documented'
+      - name: Run codecov on latest ruby
+        if: matrix.ruby == '3.1'
+        uses: codecov/codecov-action@v3
+        with:
+          fail_ci_if_error: true
