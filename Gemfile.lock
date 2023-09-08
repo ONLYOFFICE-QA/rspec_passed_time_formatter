@@ -8,8 +8,6 @@ GEM
   specs:
     ast (2.4.2)
     childprocess (4.1.0)
-    codecov (0.6.0)
-      simplecov (>= 0.15, < 0.22)
     diff-lcs (1.5.0)
     docile (1.4.0)
     iniparse (1.5.0)
@@ -25,7 +23,7 @@ GEM
     racc (1.7.1)
     rainbow (3.1.1)
     rake (13.0.6)
-    regexp_parser (2.8.0)
+    regexp_parser (2.8.1)
     rexml (3.2.5)
     rspec (3.12.0)
       rspec-core (~> 3.12.0)
@@ -82,7 +80,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  codecov (~> 0)
   overcommit (~> 0)
   rake (~> 13)
   rspec (~> 3)
