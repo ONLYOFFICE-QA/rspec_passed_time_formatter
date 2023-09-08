@@ -6,6 +6,7 @@
 
 * Add `ruby-3.0` in CI
 * Add `ruby-3.1` in CI
+* Add `ruby-3.2` in CI
 * Add `yamllint` check in CI
 
 ### Fixes
@@ -23,7 +24,7 @@
 * Check `dependabot` at 8:00 Moscow time daily
 * Changes from `rubocop-rspec` update to 2.9.0
 * Fix `rubocop-1.28.1` code issues
-* Drop `ruby-2.6` support, since it's EOL'ed
+* Drop `ruby-2.6`, `ruby-2.7` support, since it's EOL'ed
 
 ## 0.2.0 (2020-09-15)
 
@@ -37,7 +38,7 @@
 * Add `rubocop` check in CI
 * Add `rake` task to release gem on rubygems
   and GitHub Packages
-* Add `yard` task to check 100% documentation  
+* Add `yard` task to check 100% documentation
 
 ### Fixes
 
