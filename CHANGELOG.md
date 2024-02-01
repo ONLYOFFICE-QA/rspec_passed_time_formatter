@@ -28,6 +28,7 @@
 * Changes from `rubocop-rspec` update to 2.9.0
 * Fix `rubocop-1.28.1` code issues
 * Drop `ruby-2.6`, `ruby-2.7` support, since it's EOL'ed
+* Migrate to `codecov-4` CI action
 
 ## 0.2.0 (2020-09-15)
 
