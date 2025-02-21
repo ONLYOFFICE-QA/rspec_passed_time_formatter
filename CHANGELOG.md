@@ -16,6 +16,7 @@
 * Fix `markdownlint` failure because of old `nodejs` in CI
 * Fix `codecov` report, by adding `codecov` github action
 * Fix non-latest version of ruby for CI coverage report
+* Run `rubocop` in CI through `bundle exec`
 
 ### Changes
 
